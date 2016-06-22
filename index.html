@@ -80,15 +80,33 @@
             </pre>
           </section>
         </section>
-        <section data-markdown>
-          <script type="text/template">
-            ## Some stats
-            ```
-            $ git clone Slicer/ExtensionsIndex && cd ExtensionsIndex
-            $ ls *.s4ext | wc -l
-            92
-            ```
-          </script>
+        <section>
+          <section>
+            <h2>Some stats</h2>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ## Count
+              ```
+              $ git clone Slicer/ExtensionsIndex && cd ExtensionsIndex
+              $ ls *.s4ext | wc -l
+              92
+              ```
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ## Overall configure-build-test-packaging times
+
+              ```
+              linux  : ~7h15
+              macosx : ~4h50
+              windows: ~7h15
+              ```
+
+              _Note: We will review the details lated in this presentation_
+            </script>
+          </section>
         </section>
         <section>
           <section>
